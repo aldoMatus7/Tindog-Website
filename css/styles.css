@@ -1,0 +1,247 @@
+/*------------------------------ TAG SELECTOR------------------------------*/
+h1 {
+    
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: 900;
+    margin-right: 0;
+  
+    
+}
+
+h2 {
+    
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/*------------------------------ CLASS SELECTOR------------------------------*/
+.container-fluid {
+    margin-bottom: 100px;
+}
+
+/*-----NAVBAR----*/
+.navbar {
+    padding-top: 50px;
+    padding-bottom: 4.5rem;
+    
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.navbar-brand {
+    font-family: 'Monserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+
+.tindog-tittle {
+    font-family: 'Ubuntu';
+}
+
+/*-----DOWNLOAD BUTTONS----*/
+.download-button  {
+    margin: 3% 2% 3% 3%;
+}
+
+/*------IMAGE-----*/
+.tittle-image{
+    width: 30%;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    transform: rotate(25grad);
+    position: absolute;
+    top: 150px;
+    right: 19%; 
+}
+
+@media (min-width: 1400px) {
+    .tittle-image {
+        width: 25%;
+    }
+}
+
+@media (min-width: 1600px) {
+    .tittle-image {
+        width: 21%;
+    }
+}
+
+@media (max-width: 991.11px) {
+    .tittle-image {
+        position: static;
+        transform: rotate(0);
+        width: 80%;
+        margin-top: 100px;
+        padding-left: 0;
+    }
+}
+
+.container-features {
+    padding-top: 200px;
+    padding-bottom: 100px;
+    padding-left: 7%;
+    padding-right: 7%;
+    line-height: 2;
+    text-align: center;
+}
+
+/*------ICONS-----*/
+.check-circle {
+    font-size: 70px;
+    padding-bottom: 20px;
+    color: #ef8162;
+}
+.check-circle:hover {
+    color: #ff4c68;
+}
+
+.circle {
+    font-size: 70px;
+    padding-bottom: 20px;
+    color: #ef8162;
+}
+.circle:hover {
+    color: #ff4c68;
+}
+
+
+.heart {
+    font-size: 70px;
+    padding-bottom: 20px;
+    color: #ef8162;
+}
+.heart:hover {
+    color: #ff4c68;
+}
+
+/*------ICON-TEXT-p-----*/
+
+.one {
+    padding-bottom: 100px;
+}
+
+.two {
+    padding-bottom: 100px;
+}
+
+.three {
+    padding-bottom: 100px;
+}
+
+/*------TESTIMONIALS-----*/
+.testimonial-image {
+    border-radius: 100%;
+    width: 10%;
+    margin: 30px;
+}
+
+/*------PRESS-----*/
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 17%;
+}
+
+/*------PRICING-----*/
+.card-bottom {
+    margin-bottom: 25px;
+    padding: 0% 2%;
+
+}
+
+.h3-pricing {
+    color: black;
+}
+
+.cta-h3 {
+    font-size: 4rem;
+    margin: 50px 50px;
+
+}
+
+.btn-cta {
+    margin: 40px 10px;
+}
+
+.sm-icons {
+    margin: 10px 12px;
+    color: #000;
+    font-size: 20px;
+}
+
+.p-footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(36, 35, 35);
+}
+/*------------------------------ ID SELECTOR------------------------------*/
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+}
+
+#features {
+    background-color: #fff;
+    line-height: 2;
+    color: #000;
+    position: relative;
+    
+}
+
+/*------TESTIMONIALS-----*/
+#testimonials {
+    background-color: #ef8162;
+    text-align: center;
+}
+
+#press{
+    background-color: #ef8162;
+    text-align: center;
+}
+
+#pricing {
+    background-color: #fff;
+    color: black;
+    padding: 150 px;
+    text-align: center;
+}
+
+#cta {
+    background-color: #ff4c68;
+    height: 500px;
+    font-weight: 900;
+    text-align: center;
+   
+}
+
+#footer {
+    background-color: #fff;
+    height: 200px;
+    padding: 60px 50px;
+    
+
+}
